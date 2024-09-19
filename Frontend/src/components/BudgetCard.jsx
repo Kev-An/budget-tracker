@@ -63,9 +63,9 @@ const BudgetCard = ({ id, name, amount: initialAmount, max, onDelete }) => {
             <Button variant="outline-secondary" onClick={handleReset}>
               Reset
             </Button>
-            <Button variant="danger" onClick={() => onDelete(id)}>
+            {/* <Button variant="danger" onClick={() => onDelete(id)}>
               Delete
-            </Button>
+            </Button> */}
           </Stack>
         </Card.Body>
       </Card>

@@ -6,7 +6,7 @@ import Stack from "react-bootstrap/Stack";
 import Modal from "react-bootstrap/Modal";
 import Form from "react-bootstrap/Form";
 
-import { updateBudget } from "../api.js"; // Ensure deleteBudget is imported
+import { updateBudget } from "../api.js"; 
 
 const getProgressBarVariant = (amount, max) => {
   const ratio = amount / max;

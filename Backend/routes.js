@@ -1,7 +1,7 @@
 const express = require("express");
 const budgetModel = require("./dbmodel.js");
 const cors = require("cors");
-const router = express();
+const router = express.Router();
 
 router.use(cors());
 router.use(express.json());
